@@ -15,12 +15,12 @@ int WinMain() {
     SDL_Rect rect;
     rect.x = (SCREEN_WIDTH / 2);
     rect.y = (SCREEN_WIDTH / 2);
-    rect.w = (SCREEN_WIDTH / 2);
-    rect.h = (SCREEN_WIDTH / 2);
+    rect.w = (SCREEN_WIDTH / 2 - WINDOW_HEIGHT / 2);
+    rect.h = (SCREEN_WIDTH / 2 - WINDOW_HEIGHT / 2);
 
     SDL_Delay(5000);
 
-    std::cout << "Hello World" << std::endl;
+    std::cout << "Hello World!" << std::endl;
 
     return 0;
 }
