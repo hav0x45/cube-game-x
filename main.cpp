@@ -18,6 +18,16 @@ int WinMain() {
     rect.w = (SCREEN_WIDTH / 2 - WINDOW_HEIGHT / 2);
     rect.h = (SCREEN_WIDTH / 2 - WINDOW_HEIGHT / 2);
 
+    const bool running = true;
+
+    while (running) {
+        int a;
+        int b;
+        int sum;
+        sum = a + b;
+        std::cout << "Enter sum: " << sum;
+    }
+
     SDL_Delay(5000);
 
     std::cout << "Hello World!" << std::endl;
